@@ -1,0 +1,40 @@
+.contenedora{
+    display: inline;
+   /*  line-break: 1rem;
+    line-clamp: 1rem; */
+
+}
+.menufotos{
+    background: rgb(253, 192, 245);
+    
+    float: left;
+    width: 30%;
+    height: 30%;
+
+}
+.menufotos img{
+    display: flex;
+
+    float: left;
+    padding-top: .2rem;
+    padding-left: .2rem;
+    width: 49%;
+    height: 100%;
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.247) .1rem .2rem;
+    
+}
+.visor{
+    display: inline-flex;
+    float: left;
+    
+    width: 68%;
+    height: auto;
+    margin-left: 1%;
+
+}
+.visor img{
+    width: 100%;
+    border-radius: .5rem;
+    
+}
